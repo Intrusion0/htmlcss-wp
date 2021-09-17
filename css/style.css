@@ -1,70 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#centratura{
+#centratura {
     width: 70%;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     margin-bottom: 5px;
 }
 
 /* intestazione */
-header{
+header {
     padding: 20px 0;
 }
 
-#container_link{
+#container_link {
     margin-top: 40px;
 }
 
-#logo{
+#logo {
     height: 60px;
     border-right: solid 1px #e0e0e0;
     padding-right: 20px;
 }
 
-a{
+a {
     color: rgb(170, 170, 170);
     text-decoration: none;
     font-size: 18px;
     padding: 0 15px 0 0;
 }
 
-a:hover{
+a:hover {
     color: black;
     text-decoration: underline;
 }
 
 /* Prima parte */
-.container{
+.container {
     position: relative;
     margin: 20px 0 30px 0;
 }
 
-.container img{
+.container img {
     width: 100%;
     height: 560px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.text span{
+.text span {
     font-size: 34px;
 }
 
-.text{
+.text {
     width: 51%;
     position: absolute;
     bottom: 13%;
@@ -73,7 +73,7 @@ a:hover{
     font-size: 19px;
 }
 
-.color_img_principale::before{
+.color_img_principale::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -86,15 +86,15 @@ a:hover{
 
 /* Seconda parte */
 
-.container_2 p{
+.container_2 p {
     color: rgb(172, 172, 172);
 }
 
-.color_img_secondarie{
+.color_img_secondarie {
     position: relative;
 }
 
-.color_img_secondarie::before{
+.color_img_secondarie::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -104,50 +104,50 @@ a:hover{
     border-radius: 10px;
 }
 
-.container_2 h1{
+.container_2 h1 {
     font-size: 38px;
 }
 
-.container_2 .clearfix::after{
+.container_2 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.riquadro_laterale span, .riquadro_centrale span{
+.riquadro_laterale span, .riquadro_centrale span {
     display: inline-block;
     margin: 10px 0;
     font-size: 20px;
 }
 
-.riquadro_sopra{
+.riquadro_sopra {
     margin-bottom: 40px;
 }
 
-.riquadro_laterale{
+.riquadro_laterale {
     float: left;
     width: 19%;
 }
 
-.container_2 img{
+.container_2 img {
     width: 100%;
     height: 235px;
     object-fit: cover;
 }
 
-.riquadro_centrale{
+.riquadro_centrale {
     float: left;
     width: 58%;
     margin: 0 2% 20px;
 }
 
 /* footer */
-footer{
+footer {
     margin: 15px 0;
     text-align: center;
     font-size: 18px;
 }
 
-#heart{
+#heart {
     color: red;
 }
